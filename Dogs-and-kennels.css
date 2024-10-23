@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Inter";
+    src: url(Inter.ttf) 
+}
+
+body {
+    font-family: Inter, serif;
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+    background-color: white;
+    overflow-x: hidden;
+
+}
+
+
+.content-wrapper {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+.container {
+    margin: 0px auto;
+    padding-right: 100px;
+    font-size: 14px;
+    display: flex;             
+    justify-content: center;
+    align-items: center;      
+   
+ }
+
+ .img {
+    
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+
+}
+
+.img2 {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+
+}
+
+
+.name {
+    padding-top: 20px;
+    font-weight: bold;  
+    text-align: left;
+}
+
+
+
+.subtitle {
+    font-size: 14px; 
+    color: gray; 
+}
+
+.dogeting2 {
+    margin-left: 80px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+
+.dogeting {
+    margin-left: 80px;
+    margin-top: 50px;
+    text-align: left;
+    max-width: 50%;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2 {
+    color: black;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666666;
+    font-weight: 320;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.pic, .pic2, .pic3 {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
