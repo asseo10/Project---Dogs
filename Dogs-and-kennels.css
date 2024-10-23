@@ -715,3 +715,67 @@ footer {
     color: #000;
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+
+    .doggie {
+        margin: 0 auto; /* Centrera elementet horisontellt */
+        text-align: center; /* Centrera texten */
+        max-width: 100%; /* Gör den mer responsiv */
+        font-size: 15px;
+    }
+    
+    .fetch-results h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 0; 
+    }
+
+    .doggy1 {
+        text-align: center; 
+        font-size: 32px;
+        padding-right: 0; 
+        margin-left: 0; 
+        max-width: 100%; 
+        margin: 0 auto; 
+    }
+
+    .doggy2 {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 0px;
+        padding-right: 0; 
+        margin-left: 0; 
+        margin: 0 auto; 
+        max-width: 100%; 
+    }
+
+    .dogeting2 {
+        margin: 0 auto; 
+        text-align: center;  
+        font-size: 15px;
+        margin-bottom: 30px;
+        max-width: 100%;  
+    }
+
+    .dogeting {
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center; 
+        max-width: 100%; 
+    }
+
+    .menu {
+        display: none;
+
+    }
+
+    .navbar-right {
+        display: none;
+    }
+
+
+    .navbar {
+        border-bottom: none;
+    }
