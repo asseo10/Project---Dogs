@@ -313,3 +313,40 @@ img {
 .logo-section img {
     height: 20px;
 }
+
+.kennel, .docs {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.kennel img, .docs img {
+    max-width: 800px;
+}
+
+.doggy1 {
+    text-align: left;
+    padding-right: 400px;
+    font-size: 32px;
+    max-width: 50%;
+    margin-left: 80px;
+
+
+}
+
+.doggy2 {
+    text-align: left;
+    padding-right: 400px;
+    font-size: 15px;
+    padding-top: 0px;
+    margin-left: 80px;
+    max-width: 50%;
+ 
+}
+
+.quote-text2 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #999999;
+    width: 700px;
+}
