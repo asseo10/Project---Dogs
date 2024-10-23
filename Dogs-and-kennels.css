@@ -106,3 +106,93 @@ img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ddd;
+    top: 0;
+    flex-wrap: wrap;
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+/* Vänster sida: logotyp och meny */
+.navbar-left {
+    display: flex;
+    align-items: center;   
+    padding-left: 10px;
+}
+
+.logo {
+    height: 25px; /* Justera storleken på logotypen om det behövs */
+    margin-right: 20px;
+}
+
+.menu {
+    display: contents;
+    width: 30px;
+    cursor: pointer;
+    list-style: none;
+    line-height: 1.5; /* Se till att samma line-height används för konsekvent vertikal justering */
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Hover-effekt */
+.menu li a:hover {
+
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+/* Höger sida: knappar och länkar */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding-right: 5px;
+  
+}
+
+.navbar-right a:hover{
+    background-color: #f0f0f0; /* Ljusgrå bakgrund vid hover */
+    border-radius: 3px;
+} 
+
+.request-demo, .login {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-right .separator {
+    width: 1px; 
+    height: 20px; 
+    background-color: #ccc; 
+    margin-right: 20px;
+}
+
+.hamburger {
+    display: none;
+    padding-right: 10px;
+   
+}
