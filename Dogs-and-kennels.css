@@ -526,3 +526,78 @@ tr, td {
 .team-card .learn-more:hover {
     color: #087fe7;
 }
+
+.dogs-love-us {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dogs-love-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dogs-love-us p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.g2-awards {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: fit-content;
+}
+
+
+
+
+.g2-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0; 
+}
+
+.text-content {
+    padding-left: 20px;
+    text-align: left;
+    margin-right: 20px; 
+    max-width: 500px;
+}
+
+ 
+
+
+.stats-container {
+    color: #999999;
+    display: flex;
+    align-items: baseline;
+}
+
+.stat-item {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+
+}
+
+.stat-item:not(:last-child) {
+    width: 100px;
+    top: 30%;
+    bottom: 30%;
+    margin: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.percentage {
+    font-size: 53px; 
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
