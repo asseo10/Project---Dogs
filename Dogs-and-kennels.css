@@ -456,3 +456,73 @@ td.checkmark img {
 tr, td {
     color: #666;
 }
+
+.footer {
+    padding-top: 20px;
+}
+
+.features-table tr:last-child td {
+    border-bottom: none; 
+}
+
+
+.team-section {
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+
+.team-section h2 {
+    font-size: 26px;
+    border-top: 1px solid #ddd;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    font-weight: 650;
+}
+
+.team-section p {
+    font-size: 16px;
+    color: #666;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.team-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.team-card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+
+.team-card:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.team-card .emoji {
+    font-size: 30px;
+}
+
+.team-card h3 {
+    font-size: 18px;
+    display: inline;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.team-card .learn-more {
+    color: black;
+    text-decoration-line: underline;
+    display: inline-block;
+}
+
+.team-card .learn-more:hover {
+    color: #087fe7;
+}
