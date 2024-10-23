@@ -350,3 +350,109 @@ img {
     color: #999999;
     width: 700px;
 }
+
+footer {
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-logos img {
+    margin: 0 15px;
+    max-width: 150px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.free-plan {
+    border-top: solid 1px #ddd;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 20px 20px 0 20px;
+}
+
+.free-plan h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.free-plan p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.cta-button {
+    background-color: #000; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.features-table {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden; /*Ser till att innehållet hålls inom de rundade hörnen */
+
+}
+
+.features-table table {
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+.features-table th, .features-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #f4f4f4 ; /* Header background color */
+   
+}
+
+.features-table th {
+    background-color: #f4f4f4 ; /* Header background color */
+    padding-top: 30px;
+    font-weight: normal;
+ 
+}
+
+.checkmark {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+#right {
+    text-align: right;
+    color: black;
+}
+
+td.checkmark img {
+    width: 20px;
+    height: 20px;
+}
+
+tr, td {
+    color: #666;
+}
