@@ -120,7 +120,6 @@ img {
     width: 100%;
 }
 
-/* Vänster sida: logotyp och meny */
 .navbar-left {
     display: flex;
     align-items: center;   
@@ -128,7 +127,7 @@ img {
 }
 
 .logo {
-    height: 25px; /* Justera storleken på logotypen om det behövs */
+    height: 25px; 
     margin-right: 20px;
 }
 
@@ -137,7 +136,7 @@ img {
     width: 30px;
     cursor: pointer;
     list-style: none;
-    line-height: 1.5; /* Se till att samma line-height används för konsekvent vertikal justering */
+    line-height: 1.5; 
 }
 
 .menu li {
@@ -149,7 +148,6 @@ img {
     color: #000;
 }
 
-/* Hover-effekt */
 .menu li a:hover {
 
     background-color: #f0f0f0;
@@ -169,7 +167,7 @@ img {
 }
 
 .navbar-right a:hover{
-    background-color: #f0f0f0; /* Ljusgrå bakgrund vid hover */
+    background-color: #f0f0f0;
     border-radius: 3px;
 } 
 
@@ -393,7 +391,7 @@ footer p {
 }
 
 .cta-button {
-    background-color: #000; /* Button color */
+    background-color: #000; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -410,7 +408,7 @@ footer p {
     justify-content: flex-end;
     align-items: center;
     border-radius: 10px;
-    overflow: hidden; /*Ser till att innehållet hålls inom de rundade hörnen */
+    overflow: hidden;
 
 }
 
@@ -424,12 +422,12 @@ footer p {
     border-bottom: 1px solid #ccc;
     padding: 10px;
     text-align: left;
-    background-color: #f4f4f4 ; /* Header background color */
+    background-color: #f4f4f4;
    
 }
 
 .features-table th {
-    background-color: #f4f4f4 ; /* Header background color */
+    background-color: #f4f4f4; 
     padding-top: 30px;
     font-weight: normal;
  
@@ -719,9 +717,9 @@ footer {
 @media (max-width: 600px) {
 
     .doggie {
-        margin: 0 auto; /* Centrera elementet horisontellt */
-        text-align: center; /* Centrera texten */
-        max-width: 100%; /* Gör den mer responsiv */
+        margin: 0 auto; 
+        text-align: center; 
+        max-width: 100%; 
         font-size: 15px;
     }
     
@@ -779,3 +777,169 @@ footer {
     .navbar {
         border-bottom: none;
     }
+    .doggie2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .doggie {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hamburger {
+        display: flex;
+        height: 25px;
+        cursor: pointer;
+        margin-left: auto; 
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    body, html {
+        overflow-x: hidden;
+
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        padding: 20px;
+    }
+    
+ 
+    
+    .hero-image img {
+        max-width: 100%; 
+    }
+    
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+    
+    .hero p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+
+    }
+    
+    .hero .cta {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: right;
+
+    }
+
+    .pic, .pic2, .pic3 {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+
+    }
+
+    .quote-text, .quote-text2 {
+        display: inline;
+    }
+
+    .dogging1, .dogging2 {
+        padding-right: 0; 
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+
+    .team-cards {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .team-card {
+        width: 100%; 
+        margin-bottom: 20px;
+        padding: 10px; 
+    }
+
+    .dogs-love-us h1, h2 {
+        padding: 0;
+        font-size: 30px; 
+    }
+
+    .g2-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .stat-item:not(:last-child) {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .dogs-love-us p {
+        padding: 0;
+        font-size: 14px; 
+    }
+
+    .footer-container {
+        margin: 0;
+        flex-direction: column; 
+        align-items: flex-start; 
+      }
+    
+      .footer-left {
+        width: 100%; 
+        margin-bottom: 20px;
+        text-align: center; 
+        align-items: flex-start;
+      }
+    
+      .social-icons {
+        justify-content: flex-start;
+      }
+    
+      .footer-right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px; 
+        padding-left: 0;
+      }
+    
+      .footer-column {
+        width: 100%; 
+        text-align: left; 
+      }
+    
+      .footer-column ul {
+        padding: 0;
+        text-align: left; 
+      }
+}
