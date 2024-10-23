@@ -252,3 +252,45 @@ img {
 .hero-image img {
     max-width: 400px;
 }
+
+.fetch-results {
+    padding: 20px 20px;
+}
+
+.fetch-results h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 80px;
+ 
+}
+
+.doggie {
+    margin-left: 80px;
+    text-align: left;
+    max-width: 50%;
+    font-size: 15px;
+}
+
+
+.fetch-results img {
+    max-width: 800px;
+}
+
+
+
+.quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #999999;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.quote-text cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
